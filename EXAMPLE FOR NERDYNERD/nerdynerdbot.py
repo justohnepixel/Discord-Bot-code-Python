@@ -275,12 +275,12 @@ async def moderator_command(ctx):
     await ctx.send(f"AN EASTER EGG WAS FINISHED. {ctx.author.mention} found an easter egg! The name of it is: '[REDACTED]'", delete_after=4)
 
 # THIS COMMAND GIVES THE USER WHO RAN IT THE OWNER ROLE. THIS IS A SECRET COMMAND THAT IS NOT LISTED IN THE HELP COMMAND, AND IT IS NEED TO BE NON FOUND BY NORMAL USERS. ONLY THE OWNER KNOWS ABOUT THIS COMMAND, AND IT IS MEANT TO BE USED IN CASE THE OWNER LOSES ACCESS TO THEIR ACCOUNT OR NEEDS TO TRANSFER OWNERSHIP TO ANOTHER ACCOUNT FOR ANY REASON. IF YOU FIND THIS COMMAND, PLEASE DO NOT USE IT UNLESS YOU ARE THE OWNER AND HAVE A LEGITIMATE REASON TO USE IT. MISUSE OF THIS COMMAND CAN LEAD TO SERIOUS CONSEQUENCES AND MAY RESULT IN LOSS OF CONTROL OVER THE SERVER. PLEASE USE THIS COMMAND RESPONSIBLY AND ONLY IF YOU KNOW WHAT YOU ARE DOING. THANK YOU. If you read this here, the code word is "ownertransfer". You can try using the command with that name, but I won't guarantee it will work, and I won't guarantee that it will give you the owner role if it does work. Just don't abuse it, please.
-@bot.command(name="MICHAELDONTLEAVEMEHEREDONTDOTHISTOMEMICHAELMICHAELLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL")
+@bot.command(name="(put an codeword)")
 async def owner_command(ctx):
     owner_id =  1234567890123  # Replace with the actual owner ID
     owner = ctx.guild.get_member(owner_id) if ctx.guild else None
-    owner_name = str(owner) if owner else "TCC Owner"
-    owner_mention = owner.mention if owner else "TCC Owner"
+    owner_name = str(owner) if owner else "(yourdcservernameshortned) Owner"
+    owner_mention = owner.mention if owner else "(yourdcservernameshortned) Owner"
     
     if ctx.author.id != owner_id:
         await ctx.send("You are not the owner. This command is not for you.", delete_after=4)
