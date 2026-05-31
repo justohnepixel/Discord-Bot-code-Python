@@ -1,0 +1,5 @@
+Bans are like:
+
+banned by: (the user id's that banned the person)
+banned: (the user id's that who is banned)
+reason: (reason, Optionnal)
