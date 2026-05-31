@@ -1,0 +1,9 @@
+Usage:
+py -3 bootstrap.py = Windows with py launcher
+python3 bootstrap.py = Unix-like or if python is on PATH
+
+install pip (if already did, update it in VS Code):
+-m pip install --upgrade pip
+
+Install the "requirements.txt" in pip:
+-m pip install -r requirements.txt
