@@ -7,3 +7,26 @@ install pip (if already did, update it in VS Code):
 
 Install the "requirements.txt" in pip:
 -m pip install -r requirements.txt
+
+then you can try to run the bot then ask Github Copilot AI (vs code's ai) to fix the errors and it will make you install those: 
+
+Pylance  v2026.2.1 
+A performant, feature-rich language server for Python in VS Code
+
+PowerShell  v2025.4.0 
+Develop PowerShell modules, commands and scripts in Visual Studio Code!
+
+Python v2026.4.0 
+Python language support with extension access points for IntelliSense (Pylance), Debugging (Python Debugger), 
+linting, formatting, refactoring, unit tests, and more.
+
+Python Debugger v2026.6.0
+Python Debugger extension using debugpy.
+
+Python Environments v1.30.0
+Provides a unified python environment experience
+
+THEN, normally it will launch your bot.
+
+
+BY THE WAY, COPY PASTE EVERYTHING NAME TO NAME FROM THE FILE. (just remove nerdynerd.py name and replace it to '"yourbotname".py'
