@@ -1,0 +1,5 @@
+Bans, kicks and warns are like:
+
+banned/kicked/warned by: (the user id's that banned the person)
+banned/kicked/warned: (the user id's that who is banned)
+reason: (reason, Optionnal)
